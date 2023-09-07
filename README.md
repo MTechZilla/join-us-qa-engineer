@@ -9,7 +9,7 @@ Perform Integration test on MTechZilla website.
 
 Steps:
 
-1. Visit [MTechZilla Website](https://mtechzilla.com).
+1. Visit [MTechZilla Website](https://next.mtechzilla.com).
 2. Do an Accessibility manual testing and create an excel report.
 
 ## Bonus points
