@@ -26,4 +26,4 @@ Steps:
 1. Compile a comprehensive report of all findings with supporting screenshots and recommendations.
 2. Submit your completed assessment to jobs@mtechzilla.com
 
-**The timeline to complete this test is a maximum of two days.**
+**The timeline to complete this test is a maximum of one day.**
