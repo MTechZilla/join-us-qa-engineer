@@ -1,29 +1,86 @@
 # Join Us
 
-This assignment is designed for the job post of the **QA Engineer** at MTechZilla.
+This assignment is designed for the Senior QA Engineer role at MTechZilla. You’ll evaluate a real SaaS-style demo. Treat it like a production app and demonstrate how you think, plan, test, automate, communicate, and leverage AI.
 
-## Assignment Info
+Target under test: https://nextjs-supabase-ai-template-demo.vercel.app/en
 
-Objective: Perform a thorough integration and quality test on the MTechZilla website.
+Timebox: Complete within 24 hours of starting. Document what you deliberately skipped and why.
 
-Steps:
+Ground rules: Test with dummy data only. Be responsible and non-destructive. Passive security checks only.
 
-1. Visit [MTechZilla Website](https://mtechzilla.com).
-2. Accessibility Testing: Perform a manual accessibility test to ensure the site meets WCAG 2.1 guidelines. Create an Excel report documenting all findings, including issues related to color contrast, keyboard navigation, and ARIA attributes.
-3. User Interface (UI) Responsiveness: Check the responsiveness of the UI across different devices and browsers. Document any inconsistencies or failures.
-4. Link Validation: Check for broken links throughout the site. Use tools like Screaming Frog or similar to automate this process.
-5. Performance Testing: Analyze the load time and behavior under stress of the website. Tools like Google PageSpeed Insights or Lighthouse can be utilized for this purpose.
-6. Error Handling: Intentionally cause errors in form submissions, page loads, etc., to test how the system handles unexpected inputs or actions.
-7. Security Testing: Perform basic security checks to identify vulnerabilities like SQL injection, XSS, etc.
+## What We Measure
 
-## Bonus points
+1. Prioritization under constraint – where you invest limited time and why
+2. Depth of insight – bugs + root cause hypotheses + business/user impact
+3. Creativity – boundary/edge cases, adversarial thinking (esp. AI features)
+4. Communication – crisp strategy, actionable bugs, clear recommendations
+5. AI fluency – uses AI to accelerate (not replace) QA judgment
 
-1. Provide recommendations for fixing the identified issues.
-2. Demonstrate the use of automation tools in your testing.
+## Core Deliverables
 
-## Submission
+### Strategy & Priorities (1 page)
+Deliver:
+* Top 5 risks for this app (business, user, tech) with rationale
+* Test scope and explicit out-of-scope items with trade-off reasoning
+* First 90 minutes plan – what you'll test first and why
+* 3 critical questions you'd ask PM/Engineering before testing
 
-1. Compile a comprehensive report of all findings with supporting screenshots and recommendations.
-2. Submit your completed assessment to jobs@mtechzilla.com
+### Exploratory Testing
+* Auth & session management
+* AI feature behavior & safety (prompt injection, limits, error handling)
+* Data integrity & CRUD operations
+* Cross-browser/device compatibility
+* Accessibility (WCAG 2.2 A/AA spot check)
+* Performance (perceived + Web Vitals)
 
-**The timeline to complete this test is a maximum of one day.**
+For each session, document:
+* Finding summary with severity (P1-P4) and user/business impact
+* Evidence (screenshots/console logs) for critical issues only
+* Reproduction steps for P1/P2 bugs
+
+Then create:
+* Top Issues List – critical findings across both sessions
+* Go/No-Go recommendation with confidence level (High/Medium/Low) and one-line justification
+
+### Deep Dive Analysis
+* Performance bottlenecks – Core Web Vitals analysis with specific optimizations
+* Accessibility barriers – Critical WCAG violations with remediation
+
+Deliver a brief analysis:
+* Problem statement
+* Top 3 findings with evidence
+* Business/user impact
+* Concrete fix recommendations
+
+### AI-Assisted Testing Log
+Document how you used AI tools:
+* 2-3 example prompts that accelerated your testing
+* What AI suggestions you accepted vs. rejected and why
+* Privacy precautions taken (no production data, sanitized URLs, etc.)
+
+## Submission Format
+Required Files (all in single PDF):
+* Strategy document
+* Testing notes with findings from both exploratory sessions
+* Top Issues table with columns: Issue | Severity | Impact | Recommended Fix
+* Deep dive analysis
+* AI usage examples
+
+## Optional but Valuable:
+* 3-5 min video walkthrough of your most interesting findings (Loom or similar)
+* Link to a simple spreadsheet if you prefer tabular format for issues
+
+Submit to: jobs@mtechzilla.com
+
+Subject: "Senior QA Assessment – [Your Name]"
+
+## Evaluation Rubric (100 pts)
+* Impact & insight (root causes, business implications) – 35
+* Strategic prioritization (what to test/skip decisions) – 25
+* Test creativity (edge cases, exploratory skills) – 20
+* Clear communication – 10
+* Effective AI usage – 10
+
+Bonus signals: Quality of clarifying questions, realistic Go/No-Go assessment, explicit "what I didn't test and why"
+
+The timeline to complete this test is a maximum of one day.
