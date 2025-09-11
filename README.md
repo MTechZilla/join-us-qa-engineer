@@ -29,6 +29,9 @@ Deliver:
 * Auth & session management
 * AI feature behavior & safety (prompt injection, limits, error handling)
 * Data integrity & CRUD operations
+* Payment flows – use Stripe test environment
+  * Primary test card: 4242 4242 4242 4242 (use any future expiry date + any CVC)
+  * Reference: Stripe Test Cards (https://docs.stripe.com/testing) for additional scenarios (declines, authentication, etc.)
 * Cross-browser/device compatibility
 * Accessibility (WCAG 2.2 A/AA spot check)
 * Performance (perceived + Web Vitals)
